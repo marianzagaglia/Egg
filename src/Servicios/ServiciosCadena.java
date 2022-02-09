@@ -96,7 +96,7 @@ public class ServiciosCadena {
         Scanner leer = new Scanner(System.in).useDelimiter("\n");
         System.out.println("Ingrese la nueva frase para unir");
         String nuevafrase = leer.nextLine();
-        System.out.println("Las frases unidas queda: " + f1.getFrase().concat(" " + nuevafrase));
+        System.out.println("Las frases unidas quedaría: " + f1.getFrase().concat(" " + nuevafrase));
     }
 
     public void reemplazar(Cadena f1) {
